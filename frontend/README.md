@@ -44,9 +44,9 @@ graph TD
   A[Inicio] --> B[App.jsx]
   B --> C[CryptoList.jsx]
   C --> D[CryptoCard.jsx]
-  D --> E[useEffect -> fetch(`/api/cryptos`)]
+  D --> E[useEffect -> fetch - /api/cryptos]
   C --> F[CryptoChart.jsx]
-  F --> G[useEffect -> fetch(`/api/cryptos/history/:symbol`)]
+  F --> G[useEffect -> fetch - /api/cryptos/history/:symbol]
   B --> H[ToastContainer]
 ```
 
