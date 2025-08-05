@@ -1,5 +1,7 @@
 # 💼 Crypto Investment – Fullstack App (Frontend + Backend)
 
+![Vista de ejemplo](assets/crypto.gif)
+
 Este es un proyecto **Fullstack** desarrollado como parte de una prueba técnica para una vacante en desarrollo **Fullstack (Node.js + React)**. Permite visualizar información en tiempo real y el historial reciente de criptomonedas usando datos de CoinMarketCap.
 
 ---
