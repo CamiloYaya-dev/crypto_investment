@@ -34,7 +34,7 @@ flowchart TD
     subgraph Frontend [React]
         A[CryptoList] --> B[CryptoCard]
         A --> C[CryptoChart]
-        C -->|fetch| D[/api/cryptos/history/:symbol]
+        C -->|fetch| D["/api/cryptos/history/:symbol"]
     end
 
     subgraph Backend [Node.js + Express]
