@@ -9,7 +9,7 @@ Este es el backend de la aplicación **Crypto Investment**, una plataforma para 
 
 ```mermaid
 flowchart TD
-    A[Cliente (Frontend)] -->|HTTP| B[Express (App)]
+    A[Cliente - Frontend] -->|HTTP| B[Express - App]
     B --> C[Controladores]
     C --> D[Servicios]
     D --> E[API CoinMarketCap]
