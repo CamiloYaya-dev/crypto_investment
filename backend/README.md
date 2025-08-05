@@ -75,6 +75,31 @@ Importa el archivo schema.sql ubicado en la carpeta backend/database.
 
 ---
 
+## Modelo entidad relacion
+
+```mermaid
+  erDiagram
+      CRYPTOCURRENCY ||--o{ PRICE_HISTORY : has
+      CRYPTOCURRENCY {
+          int id PK
+          varchar symbol
+          varchar name
+          varchar slug
+      }
+      PRICE_HISTORY {
+          int id PK
+          int cryptocurrency_id FK
+          decimal price
+          decimal volume_24h
+          decimal percent_change_1h
+          decimal percent_change_24h
+          decimal percent_change_7d
+          datetime timestamp
+      }
+```
+
+---
+
 ## 🧠 Funcionalidades principales
 
 - **Persistencia automática** cada 15 segundos de los precios de BTC, ETH y SOL
