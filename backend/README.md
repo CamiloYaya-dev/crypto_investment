@@ -66,6 +66,15 @@ DB_NAME=crypto_investment
 
 ---
 
+## 🛠️ Configuración de la base de datos
+Antes de iniciar el servidor, debes preparar la base de datos MySQL. Sigue estos pasos:
+
+Crea una base de datos llamada crypto_investment (o el nombre que hayas definido en tu archivo .env).
+
+Importa el archivo schema.sql ubicado en la carpeta backend/database.
+
+---
+
 ## 🧠 Funcionalidades principales
 
 - **Persistencia automática** cada 15 segundos de los precios de BTC, ETH y SOL
