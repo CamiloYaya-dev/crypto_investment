@@ -1,0 +1,52 @@
+.crypto-chart-container {
+  background-color: #181A20;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  border: solid 1px #2B3139;
+}
+
+.crypto-chart-controls {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.crypto-chart-controls label {
+  margin-right: 0.5rem;
+  white-space: nowrap;
+}
+
+.crypto-chart-controls select {
+  margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .crypto-chart-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .crypto-chart-controls label,
+  .crypto-chart-controls select {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.crypto-chart-title {
+  margin-bottom: 1rem;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
